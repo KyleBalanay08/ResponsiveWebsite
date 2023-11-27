@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Nicolas Ili Nagtaudak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-image">
+        <div class="main">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="sn7.jpg"><img src="sn7.jpg"></a>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="festival.html">Festival</a></li>
+                        <li><a href="prod.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1>San Nicolas</h1>
+                <p>San Nicolas (Ilocano: Ili ti San Nicolas; Filipino: Bayan ng San Nicolas),
+                    officially the Municipality of San Nicolas,
+                    is a 1st class municipality in the province of
+                    Ilocos Norte, Philippines. According to the 2020 census,
+                    it has a population of 38,895 people.</p>
+            <div class="image-gallery">
+                    <img src="sn2.JPG" alt="Destination 1">
+                    <img src="sn8.jpg" alt="Destination 2">
+                    <img src="sn9.jpg" alt="Destination 3">
+                    <img src="sn6.jpg" alt="Destination 4">
+            </div>
+            </div>
+        </div>
+<div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>

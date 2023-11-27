@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Nicolas Ili Nagtaudak</title>
+    <link rel="stylesheet" href="fest.css">
+</head>
+<body>
+
+    <div class="background-image">
+        <div class="main">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="sn7.jpg"><img src="sn7.jpg"></a>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="festival.html">Festival</a></li>
+                        <li><a href="prod.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1>Damili Festival</h1>
+                <p>Damili Festival is the annual festival of the municipality which the main 
+                    celebration is held from December 26-30. The term “damili”  or earthenware 
+                    is in recognition to the centuries old industry which is the identity and source 
+                    of pride and inspiration of its people and the municipality.</p>
+                <h3>"San Nicolas Banga<br>tiktikem nalagda,<br>uray pisukam ti granada<br>saan nga marba"</h3>
+            <div class="image-gallery">
+                    <img src="df1.jpg" alt="Destination 1">
+                    <img src="df2.jpg" alt="Destination 2">
+                    <img src="df3.jpg" alt="Destination 3">
+                    <img src="df4.jpg" alt="Destination 4">
+            </div>
+            </div>
+        </div>
+<div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>
